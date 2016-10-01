@@ -32,7 +32,7 @@ public class PlayerHealth : MonoBehaviour
 	void Update () 
 	{
 		if (controller.IsWounded ()) {
-			controller.RegenHealth (Time.time);
+			controller.RegenHealth ();
 		}
 		if(Input.GetButtonDown("Fire1"))
 		{
@@ -46,6 +46,8 @@ public class PlayerHealthController
 {
 	public Health healthDefaults;
 	public Regen regenDefaults;
+
+
 	[SerializeField]
 	private PlayerState _state;
 	public PlayerState state { get {return _state;}}
@@ -81,6 +83,20 @@ public class PlayerHealthController
 		return _state == PlayerState.Wounded || _state == PlayerState.CriticalyWounded;
 	}
 
+	public void RegenHealth ()
+	{
+		if (CanRegen ())
+		{
+			HealDamage (regenDefaults.regenSpeed);
+		}
+	}
+
+	virtual public bool CanRegen ()
+	{
+		return (Time.time - _lastDamageTime) >= regenDefaults.regenDelay && 
+			(Time.time - _lastHealTime) >= regenDefaults.regenFrequency;
+	}
+
 	private void SetState()
 	{
 		if (_currentHealth <= 0) 
@@ -99,19 +115,5 @@ public class PlayerHealthController
 			return;
 		}
 		_state = PlayerState.FullHealth;
-	}
-
-	public void RegenHealth (float time)
-	{
-		if (CanRegen (time))
-		{
-			HealDamage (regenDefaults.regenSpeed);
-		}
-	}
-
-	virtual public bool CanRegen (float time)
-	{
-		return (time - _lastDamageTime) >= regenDefaults.regenDelay && 
-			(time - _lastHealTime) >= regenDefaults.regenFrequency;
 	}
 }

@@ -3,10 +3,12 @@ using UnityEditor;
 using NUnit.Framework;
 using NSubstitute;
 
-public class PlayerHealthTest {
+public class PlayerHealthTest 
+{
 
 	[Test]
-	public void SetupTest() {
+	public void SetupTest() 
+	{
 		
 		PlayerHealthController playerHealth = GetControllerMock ();
 		Assert.AreEqual (playerHealth.currentHealth, playerHealth.healthDefaults.maxHealth);
@@ -15,7 +17,8 @@ public class PlayerHealthTest {
 	}
 
 	[Test]
-	public void TakeDamageTest() {
+	public void TakeDamageTest() 
+	{
 		//Arrange
 		PlayerHealthController playerHealth = GetControllerMock ();
 
@@ -27,7 +30,8 @@ public class PlayerHealthTest {
 	}
 
 	[Test]
-	public void TakeCriticalDamageTest() {
+	public void TakeCriticalDamageTest() 
+	{
 		//Arrange
 		PlayerHealthController playerHealth = GetControllerMock ();
 
@@ -39,7 +43,8 @@ public class PlayerHealthTest {
 	}
 
 	[Test]
-	public void TakeFatalDamageTest() {
+	public void TakeFatalDamageTest() 
+	{
 		//Arrange
 		PlayerHealthController playerHealth = GetControllerMock ();
 
@@ -51,7 +56,8 @@ public class PlayerHealthTest {
 	}
 
 	[Test]
-	public void HealFullHealth() {
+	public void HealFullHealth() 
+	{
 		PlayerHealthController playerHealth = GetControllerMock ();
 
 		playerHealth.TakeDamage (5);
@@ -62,22 +68,24 @@ public class PlayerHealthTest {
 	}
 
 	[Test]
-	public void RegenHealth() {
+	public void RegenHealth() 
+	{
 		PlayerHealthController playerHealth = GetControllerMock ();
 
 		playerHealth.TakeDamage (5);
-		playerHealth.RegenHealth (1);
+		playerHealth.RegenHealth ();
 
 		Assert.AreEqual (playerHealth.currentHealth, playerHealth.healthDefaults.maxHealth - 5 + playerHealth.regenDefaults.regenSpeed);
 	}
 
 	[Test]
-	public void NotRegenHealth() {
+	public void NotRegenHealth() 
+	{
 		PlayerHealthController playerHealth = GetControllerMock ();
-		playerHealth.CanRegen (1).Returns (false);
+		playerHealth.CanRegen ().Returns (false);
 
 		playerHealth.TakeDamage (5);
-		playerHealth.RegenHealth (1);
+		playerHealth.RegenHealth ();
 
 		Assert.AreEqual (playerHealth.currentHealth, playerHealth.healthDefaults.maxHealth - 5);
 	}
@@ -86,7 +94,7 @@ public class PlayerHealthTest {
 	{
 		var playerHealth = Substitute.For<PlayerHealthController> ();
 		playerHealth.Init ();
-		playerHealth.CanRegen (1).Returns (true);
+		playerHealth.CanRegen ().Returns (true);
 		return playerHealth;
 	}
 		
