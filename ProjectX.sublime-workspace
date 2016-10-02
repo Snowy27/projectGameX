@@ -1,0 +1,732 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PlayerHea",
+				"PlayerHealthController\tPlayerHealthController"
+			],
+			[
+				"folder",
+				"folder_exclude_patterns"
+			],
+			[
+				"sort",
+				"sort_priority\tfunction"
+			],
+			[
+				"long",
+				"longest_name\tstatement"
+			],
+			[
+				"max",
+				"max_letters\tstatement"
+			],
+			[
+				"ma",
+				"matches\tstatement"
+			],
+			[
+				"from",
+				"from\tkeyword"
+			],
+			[
+				"nex",
+				"next_x"
+			],
+			[
+				"x_",
+				"x_values"
+			],
+			[
+				"y",
+				"y_step"
+			],
+			[
+				"x",
+				"x_values"
+			],
+			[
+				"test",
+				"testObject"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"try",
+				"try\tTry/Except/Else"
+			],
+			[
+				"oj",
+				"objectType"
+			],
+			[
+				"json",
+				"jsonFile"
+			],
+			[
+				"fiel",
+				"field"
+			],
+			[
+				"debu",
+				"debugging"
+			],
+			[
+				"pa",
+				"pageProperties"
+			],
+			[
+				"page",
+				"pageProps"
+			],
+			[
+				"$lo",
+				"$location\tAngularJS(DI)"
+			],
+			[
+				"is",
+				"is-show-fixed"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"$roo",
+				"$rootScope\tAngularJS"
+			],
+			[
+				"$root",
+				"$rootScope\tAngularJS(DI)"
+			],
+			[
+				"new",
+				"newLocation"
+			],
+			[
+				"old",
+				"oldWhiteListExp"
+			],
+			[
+				"$compile",
+				"$compileProvider\tAngularJS(DI)"
+			],
+			[
+				"ne",
+				"newLocation"
+			],
+			[
+				"use",
+				"userDevice"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"unl",
+				"unlockAndScrollToTopPosition"
+			],
+			[
+				"$routeC",
+				"$routeChangeSuccess\tAngularJS (E)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"and",
+				"android-banner-line-height"
+			],
+			[
+				"android",
+				"android-banner-height"
+			],
+			[
+				"call",
+				"called"
+			],
+			[
+				"iFr",
+				"iframeResizer"
+			],
+			[
+				"iframe",
+				"iframeResizer"
+			],
+			[
+				"ifram",
+				"iframeResizer"
+			],
+			[
+				"ifr",
+				"iframeResizer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Editor/Unit Tests/PlayerHealthTest.cs",
+			"settings":
+			{
+				"buffer_size": 2543,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Player/PlayerHealth.cs",
+			"settings":
+			{
+				"buffer_size": 2200,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Instal",
+		"selected_items":
+		[
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package i",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mdolt/Documents/ProjectX",
+		"/Users/mdolt/Documents/ProjectX/Assets",
+		"/Users/mdolt/Documents/ProjectX/Assets/Scripts",
+		"/Users/mdolt/Documents/ProjectX/Assets/Scripts/Util"
+	],
+	"file_history":
+	[
+		"/Users/mdolt/Documents/ProjectX/ProjectX.sublime-project",
+		"/Users/mdolt/Documents/Python playground/main.py",
+		"/Users/mdolt/Documents/SuperSpartyBros/Assets/Scripts/Wizard.cs",
+		"/Users/mdolt/Documents/Python playground/testObj.json",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/mdolt/Documents/Python playground/ObjectCreator.py",
+		"/Users/mdolt/Documents/Python playground/beard.py",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/mdolt/Documents/Python playground/RandomWalk.py",
+		"/Users/mdolt/Documents/Python playground/test.json",
+		"/Users/mdolt/Documents/Python playground/testFormatedName.py",
+		"/Users/mdolt/Documents/Python playground/testObjectCreator.py",
+		"/Users/mdolt/Documents/Python playground/name_function.py",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/User/UnityJavaScript.sublime-settings",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/layout/landing/homepage-hero-backgrounds--service.js",
+		"/Users/mdolt/Dev/hui-mobile/node_modules/hui-components-content/lib/device-apps/links--service.js",
+		"/Users/mdolt/Dev/hui-mobile/coverage/layout/landing/homepage-hero-backgrounds--service.js.html",
+		"/Users/mdolt/Dev/hui-mobile/client/styles/src/scss/frame/_global-navigation.scss",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/lock-scroll--service.js",
+		"/Users/mdolt/Dev/hui-mobile/client/styles/src/scss/modules/_android-banner.scss",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/globalNav/global-nav-header--directive.js",
+		"/Users/mdolt/Dev/hui-mobile/client/styles/src/scss/modules/_property-lead-form.scss",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/app.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/layout/property/templates/property-confirmation-page.html",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/router/index.js",
+		"/Users/mdolt/Dev/hui-mobile/client/index.html.hbs",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/globalNav/templates/global-nav--header.tpl.html",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/router/routes.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/router/spec/view--controller_test.js",
+		"/Users/mdolt/Dev/hui-mobile/node_modules/hui-components-ui/lib/components/hui-visualization/visualization-util--service.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/index.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/index.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/layout/landing/templates/home.html",
+		"/Users/mdolt/Dev/hui-mobile/node_modules/hui-components-ui/node_modules/waypoints/lib/noframework.waypoints.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/layout/property/templates/results.html",
+		"/Users/mdolt/Dev/hui-mobile/client/styles/src/scss/modules/_bumpers.scss",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/globalNav/global-nav.js",
+		"/Users/mdolt/Dev/hui-mobile/node_modules/hui-components-vendor/lib/bower_components/ngDialog/js/ngDialog.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/globalNav/global-nav--header.tpl.html",
+		"/Users/mdolt/Dev/hui-mobile/client/styles/src/scss/main.scss",
+		"/Users/mdolt/Dev/hui-mobile/client/styles/src/scss/layout/_details.scss",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/globalNav/global-nav-drawer--directive.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/mobile-modals--service.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/ngdialog.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/layout/property/srp--directive.js",
+		"/Users/mdolt/Dev/hui-mobile/client/scripts/src/frame/globalNav/global-nav--main.tpl.html",
+		"/Users/mdolt/Dev/hui-mobile/node_modules/html-loader/node_modules/html-minifier/node_modules/clean-css/lib/colors/hex-name-shortener.js",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/index.js",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/spec/resizable-iframe--directive_test.js",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/index.js",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/mortgage-rates-iframe.tpl.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/mortgage-rates-display_mobile.tpl.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/mortgage-rates-display.tpl.html",
+		"/Users/mdolt/Dev/hui-components-content/package.json",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/mortgage-rates-display_desktop.tpl.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/mortgage-rates-iframe_desktop.tpl.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/leads/one-two-three-movers--directive.js",
+		"/Users/mdolt/Dev/hui-components-content/coverage/leads/one-two-three-movers--directive.js.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/spec/mortgage-rates-display--directive_test.js",
+		"/Users/mdolt/Dev/hui-components-content/coverage/details-new/index.js.html",
+		"/Users/mdolt/Dev/hui-components-content/coverage/mortgage/mortgage-rates--service.js.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/directives/offered-by--directive.js",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/offered-by-provider_desktop.tpl.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/offered-by-provider_mobile.tpl.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/templates/features-amenities_desktop.tpl.html",
+		"/Users/mdolt/Dev/hui-components-content/lib/details/spec/offered-by--directive_test.js",
+		"/Users/mdolt/Dev/hui-mobile/lib/index.js",
+		"/Users/mdolt/Dev/hui-desktop/client/scripts/src/app.js",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"",
+			"node_modules/hui-components-style/",
+			"node_modules/hui-components-style/src",
+			"",
+			"client/scripts/",
+			"client/scripts",
+			"",
+			"client/",
+			"client",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tab",
+			"line",
+			"x",
+			"factory",
+			"Navigated",
+			"goto",
+			"waypoint",
+			"toggleBumper",
+			"pageCtrl.toggleBumper",
+			"$modal",
+			"z-index\n$z-index",
+			"$z-index-\n$z-index",
+			"z-index",
+			"ngdialog4",
+			"mortgageRatesDisplay",
+			"window.app.dev",
+			"CAD",
+			"removeTransformOnPlatform",
+			"gotoLegacy",
+			"listingLeadForm.valid",
+			"down",
+			"on('scroll",
+			"'scroll'",
+			"scrollHandler",
+			"toggleHeader",
+			"unlock",
+			"uiViewScroll",
+			"footer",
+			"adhesive",
+			"scrollTop",
+			"anchorScroll",
+			"appConfig",
+			"appConfigProvider",
+			"scrollTop",
+			"appConfigProvider",
+			"route",
+			"busy",
+			"ngdialog-open",
+			"ngdialog",
+			"_lock--scroll",
+			"$('body",
+			"<global-nav",
+			"app-baners",
+			"app",
+			"border-radius",
+			"icon-hui",
+			"icon-hui--hdc",
+			"hui-icon--h",
+			"hui-icon--hdc",
+			"hui-icon-hdc",
+			"$yellow",
+			"icon-hui--star",
+			"icon-hui--star\\",
+			"lightest",
+			"ligtest",
+			"whitesmoke",
+			"f5f5f5",
+			"results.html",
+			"close",
+			"results.html",
+			"<results-bumper",
+			"index.html.hbs",
+			"meta name",
+			"mortgage-rates-display",
+			"<",
+			"mortgageRatesDisplay",
+			"<mortgageRatesDisplay",
+			"lodas",
+			"requi",
+			"lodash",
+			"lodash/index",
+			"mortgage-rates-display",
+			"$on",
+			"link",
+			"37,43,57",
+			"38, 50, 56"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Editor/Unit Tests/PlayerHealthTest.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"893,907": "Error: Single"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/Player/PlayerHealth.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"866,871": "'state' should start with an upper case letter. (Rule 'Properties')",
+								"955,968": "'currentHealth' should start with an upper case letter. (Rule 'Properties')"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 168.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 168.0
+	},
+	"output.variable_get":
+	{
+		"height": 168.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "ProjectX.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"service",
+				"node_modules/hui-components-content/lib/device-apps/links--service.js"
+			],
+			[
+				"global-nav",
+				"client/scripts/src/frame/globalNav/global-nav-header--directive.js"
+			],
+			[
+				"globa-nav",
+				"client/scripts/src/frame/globalNav/global-nav--main.tpl.html"
+			],
+			[
+				"mort-dis",
+				"lib/details/templates/mortgage-rates-display_mobile.tpl.html"
+			],
+			[
+				"mortgage-rates-ifr",
+				"lib/details/directives/mortgage-rates-iframe--directive.js"
+			],
+			[
+				"mortgag",
+				"lib/details/templates/mortgage-rates-display_mobile.tpl.html"
+			],
+			[
+				"mortgage-rates",
+				"lib/details/templates/mortgage-rates-display_desktop.tpl.html"
+			],
+			[
+				"one-two",
+				"coverage/leads/one-two-three-movers--directive.js.html"
+			],
+			[
+				"mover",
+				"coverage/leads/one-two-three-movers--directive.js.html"
+			],
+			[
+				"mortgage",
+				"hui-components-content/coverage/mortgage/mortgage-rates--service.js.html"
+			],
+			[
+				"mortgage-rates-d",
+				"hui-components-content/lib/details/templates/mortgage-rates-display.tpl.html"
+			],
+			[
+				"mortgage-rates-disp",
+				"hui-components-content/lib/details/spec/mortgage-rates-display--directive_test.js"
+			],
+			[
+				"mortga",
+				"hui-components-content/lib/details/directives/mortgage-rates-display--directive.js"
+			],
+			[
+				"feat",
+				"lib/details/templates/features-amenities_desktop.tpl.html"
+			],
+			[
+				"offer",
+				"lib/details/spec/offered-by--directive_test.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 327.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

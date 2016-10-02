@@ -1,25 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public enum PlayerState {FullHealth, Wounded, CriticalyWounded, Dead};
 
 [System.Serializable]
-public class Health 
+public class Health
 {
 	public int maxHealth = 100;
 	public int criticalHealth = 25;
 }
 
 [System.Serializable]
-public class Regen 
+public class Regen
 {
 	public float regenDelay = 2.0f;
 	public int regenSpeed = 2;
 	public float regenFrequency = 1.0f;
 }
 
-public class PlayerHealth : MonoBehaviour 
+public class PlayerHealth : MonoBehaviour
 {
 	public PlayerHealthController controller;
 
@@ -27,9 +25,9 @@ public class PlayerHealth : MonoBehaviour
 	{
 		controller.Init ();
 	}
-	
+
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
 		if (controller.IsWounded ()) {
 			controller.RegenHealth ();
@@ -40,13 +38,12 @@ public class PlayerHealth : MonoBehaviour
 		}
 	}
 }
-	
+
 [System.Serializable]
 public class PlayerHealthController
 {
 	public Health healthDefaults;
 	public Regen regenDefaults;
-
 
 	[SerializeField]
 	private PlayerState _state;
@@ -93,13 +90,13 @@ public class PlayerHealthController
 
 	virtual public bool CanRegen ()
 	{
-		return (Time.time - _lastDamageTime) >= regenDefaults.regenDelay && 
+		return (Time.time - _lastDamageTime) >= regenDefaults.regenDelay &&
 			(Time.time - _lastHealTime) >= regenDefaults.regenFrequency;
 	}
 
 	private void SetState()
 	{
-		if (_currentHealth <= 0) 
+		if (_currentHealth <= 0)
 		{
 			_state = PlayerState.Dead;
 			return;
