@@ -29,10 +29,11 @@ public class PlayerHealth : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if (controller.IsWounded ()) {
+		if (controller.IsWounded ())
+		{
 			controller.RegenHealth ();
 		}
-		if(Input.GetButtonDown("Fire1"))
+		if (Input.GetButtonDown("Fire1"))
 		{
 			controller.TakeDamage (5);
 		}
@@ -54,7 +55,8 @@ public class PlayerHealthController
 	private float _lastDamageTime;
 	private float _lastHealTime;
 
-	public void Init() {
+	public void Init()
+	{
 		healthDefaults = new Health ();
 		regenDefaults = new Regen ();
 		_currentHealth = healthDefaults.maxHealth;
@@ -94,7 +96,7 @@ public class PlayerHealthController
 			(Time.time - _lastHealTime) >= regenDefaults.regenFrequency;
 	}
 
-	private void SetState()
+	private void SetState ()
 	{
 		if (_currentHealth <= 0)
 		{
