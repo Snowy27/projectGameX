@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"_ve",
+				"_verticesSizeZ\tint"
+			],
+			[
+				"Vec",
+				"Vector2\tVector2"
+			],
+			[
+				"Vector",
+				"Vector3\tVector3"
+			],
+			[
+				"_size",
+				"_sizeX\tint"
+			],
+			[
+				"_vert",
+				"_vertices\tVector3[]"
+			],
+			[
+				"size",
+				"sizeX\tint"
+			],
+			[
+				"Get",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"_vertices",
+				"_verticesSizeX\tint"
+			],
+			[
+				"_siz",
+				"_sizeX\tint"
+			],
+			[
+				"Mesh",
+				"MeshRenderer\tMeshRenderer"
+			],
+			[
+				"pu",
+				"public\tpublic"
+			],
+			[
 				"PlayerHea",
 				"PlayerHealthController\tPlayerHealthController"
 			],
@@ -192,21 +236,46 @@
 	"buffers":
 	[
 		{
-			"file": "Assets/Editor/Unit Tests/PlayerHealthTest.cs",
+			"file": "Assets/Scripts/Player/PlayerHealth.cs",
 			"settings":
 			{
-				"buffer_size": 2543,
+				"buffer_size": 2205,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Assets/Scripts/Player/PlayerHealth.cs",
+			"file": "Assets/Editor/Unit Tests/PlayerHealthTest.cs",
 			"settings":
 			{
-				"buffer_size": 2200,
+				"buffer_size": 2724,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "Assets/Scripts/TileMaps/TileMapGenerator.cs",
+			"file_size": 4328,
+			"file_write_time": 131199331300000000,
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n    // This setting contains a dictionary of aliases. The keys represent the\n    // alias names, the values represent the paths.\n    // NOTE: These should be absolute paths. Also, these paths should\n    // match your systems convention. For example, Windows machines should\n    // have paths similar to \"C:\\\\Users\\\\username\\\\Desktop\". *nix systems should\n    // have paths similar to \"/home/username/desktop\".\n    \"alias\": {},\n\n    // This is a secondary field for aliases. These aliases will be platform specific.\n    // The key for the entry will still represent the name to be used for the alias.\n    // Rather than being just a string path, the value will be a nested dictionary.\n    // The dictionary may have one of three keys, \"windows\", \"linux\", or \"osx\".\n    // The path used for this alias will be based on the operating system being used.\n    \"os_specific_alias\": {},\n\n    // A default initial value to fill the create new file input path with.\n    \"default_initial\": \"\",\n\n    // A boolean defining if cursor text should be used. Text bound by single or\n    // double quotes or within a region will be used. If multiple cursors\n    // are used, the earliest selection containing a region or existing\n    // within quotes will be used.\n    // NOTE: A value read from cursor will override the default\n    // initial string setting.\n    \"use_cursor_text\": false,\n\n    // A boolean value specifying if regular files should be included in the auto\n    // complete options.\n    \"show_files\": false,\n\n    // A boolean specifying if the file path being created should be displayed in\n    // the status bar.\n    \"show_path\": true,\n\n    // This value specifies the default directory when using AdvancedNewFile.\n    // Note it must be one of these values:\n    //  project_folder - Default will be the folder index specified by the \"default_folder_index\" setting.\n    //  current - Default will be the directory of the current view.\n    //  home - Default will be the home folder (~/)\n    //  path - Default will be defined by the setting \"default_path\"\n    // If the current view or top folder cannot be resolved, the home directory\n    // will be used.\n    \"default_root\": \"project_folder\",\n\n    // A string specifying the default root to use. For this to be utilized,\n    // \"default_root\" must be set to \"path\"\n    \"default_path\": \"~\",\n\n    // An integer value representing a folder index to be used when \"folder\" is specified\n    // for \"default_root\". If an index outside of the range of existing folders is used,\n    // it will default to 0 (the top level folder).\n    \"default_folder_index\": 0,\n\n\n    // This value specifies the root that will be used when resolving relative paths\n    // defined in aliases. For more information about valid values, see \"default_root\".\n    // Note that if \"default_path\" or \"default_folder_index\" is used,\n    // \"alias_path\" and \"alias_folder_index\" must be used for the respective entries.\n    \"alias_root\": \"current\",\n\n    // A string specifying the path to use for the alias root. For this to be\n    // utilized, \"alias_root\" must be set to \"path\"\n    \"alias_path\": \"~\",\n\n    // An integer value representing the folder index to use when \"folder\" is specified\n    // for \"alias_root\". If an index outside of the range of the existing folders is used,\n    // it will default to 0.\n    \"alias_folder_index\": 0,\n\n    // A boolean specifying if case should be ignored when building\n    // auto complete list.\n    \"ignore_case\": false,\n\n    // A boolean specifying if folders should automatically refresh and update the sidebar.\n    // In some builds, the sidebar does not refresh when contents of project folder are updated.\n    // This setting is required to refresh the sidebar in these circumstances.\n    // false by default\n    \"auto_refresh_sidebar\": false,\n\n    // A string specifying the type of auto completion to use. Valid values are\n    // \"windows\" or \"nix\"\n    \"completion_type\": \"windows\",\n\n    // A boolean setting specifying if a separator should be inserted when\n    // there is only one completion and completion type is \"windows\"\n    \"complete_single_entry\": true,\n\n    // A boolean setting specifying if the folder name should be used\n    // or the name specified in the project. This setting only applies to ST3.\n    \"use_folder_name\": false,\n\n    // Boolean setting specifying if relative paths should be based on the\n    // current working directory.\n    \"relative_from_current\": true,\n\n    // String containing the default file extension. Note the extension is only applied\n    // if the specified path does not contain a dot (.) character.\n    \"default_extension\": \"\",\n\n    // String representing permissions to be applied to newly created directories.\n    // e.g. \"777\" -> RWX for user, group, and other.\n    \"folder_permissions\": \"\",\n\n    // String representing permissions to be applied to newly created files.\n    // e.g. \"777\" -> RWX for user, group, and other.\n    \"file_permissions\": \"\",\n\n    // Default input for renaming a file. Special value <filename> will be replaced\n    // with the current file name. Special value <filepath> will be replaced with\n    // the complete filepath, including the filename. Special value <filedirectory>\n    // will be replaced with the filepath, not including the filename. Note that a\n    // colon as the default will resolve to the same path as <filedirectory>, if the\n    // file exists on disk.\n    \"rename_default\": \"\",\n\n    // Setting to control if VCS management is used when moving and removing files.\n    \"vcs_management\": false,\n\n    // An object containing information to use for templates when creating new files.\n    // The key values for this object should be a file extension. Files without extensions\n    // such as \"Makefile\" or \".bash_profile\" use the full file name as the key.\n    // The value may either be a string of the content to be inserted or a list of paths.\n    // If a list of paths is specified, the name of the file will be displayed during\n    // selection. The paths must either be absolute, from the home directory of the\n    // user (`~/`), or relative to the Packages directory. These relative files should have\n    // the form \"Packages/User/mytest.sublime-snippet\". If a string is used, or the list\n    // contains a single entry, it will be automatically inserted into any newly created files.\n    \"file_templates\": {},\n\n    // Setting this value to true will allow you to escape characters as you normally\n    // would when using a shell. For example, given the input string \"foo\\ bar\", false\n    // would result in a file named \" bar\" in the foo directory. With the value set to\n    // true, a file named \"foo bar\" would be created. In addition, setting this value\n    // to true will allow for curly brace expansion. Currently, only comma separated\n    // entries are supported.\n    \"shell_input\": false,\n\n    // Setting to control if the extension will be automatically applied to renamed files.\n    \"append_extension_on_move\": false,\n\n    // An integer value representing a folder index to be used when a relative path\n    // cannot be resolved from the current active view. If an index outside of the range\n    // of existing folders is used, it will default to 0 (the top level folder). If no\n    // folders exist as part of the project the home directory will be used.\n    \"relative_fallback_index\": 0,\n\n    // Setting to control if the extension will be automatically applied to copied files.\n    \"append_extension_on_copy\": true,\n\n    // Same as `rename_default`, but applied to copy command.\n    \"copy_default\": \"\",\n\n    // Same as `rename_default`, but applied to cut to default command.\n    \"cut_to_file_default\": \"\",\n\n    // If default_root is set to current, the project folder should be used as the default\n    // rather than the home directory.\n    \"current_fallback_to_project\": false,\n\n    // If a warning should be displayed when trying to overwrite an existing file using\n    // the move command.\n    \"warn_overwrite_on_move\": false,\n\n    // Same as `default_root` for new file commands. In addition to the valid values listed\n    // for `default_root`, \"default_root\" will use the value for that setting.\n    \"new_file_default_root\": \"default_root\",\n\n    // Same as `default_root` for rename file commands. In addition to the valid values listed\n    // for `default_root`, \"default_root\" will use the value for that setting.\n    \"rename_file_default_root\": \"default_root\",\n\n    // Same as `default_root` for copy file commands. In addition to the valid values listed\n    // for `default_root`, \"default_root\" will use the value for that setting.\n    \"copy_file_default_root\": \"default_root\",\n\n    // On empty input of file name, execute an alternative action.\n    // Currently only implemented for the new file command, which will open a new unnamed file.\n    \"empty_filename_action\": false,\n\n    // When specifying initial input, this boolean will place the cursor prior to the .<content>\n    \"cursor_before_extension\": false\n}\n",
+			"file": "/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 9002,
+				"line_ending": "Unix",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -218,9 +287,49 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "Instal",
+		"last_filter": "priv",
 		"selected_items":
 		[
+			[
+				"priv",
+				"Snippet: Private Method"
+			],
+			[
+				"pr",
+				"Snippet: Private Method"
+			],
+			[
+				"for",
+				"Snippet: For"
+			],
+			[
+				"priva",
+				"Snippet: Private Method"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pri",
+				"Snippet: Private Method"
+			],
+			[
+				"prop",
+				"Snippet: Property (Read-Write)"
+			],
+			[
+				"pum\t",
+				"Snippet: Public Method"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Class"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
 			[
 				"Instal",
 				"Package Control: Install Package"
@@ -228,10 +337,6 @@
 			[
 				"disa",
 				"Package Control: Disable Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"remove",
@@ -305,11 +410,15 @@
 	[
 		"/Users/mdolt/Documents/ProjectX",
 		"/Users/mdolt/Documents/ProjectX/Assets",
-		"/Users/mdolt/Documents/ProjectX/Assets/Scripts",
-		"/Users/mdolt/Documents/ProjectX/Assets/Scripts/Util"
+		"/Users/mdolt/Documents/ProjectX/Assets/Editor/Unit Tests",
+		"/Users/mdolt/Documents/ProjectX/Assets/Scripts"
 	],
 	"file_history":
 	[
+		"/Users/mdolt/Documents/ProjectX/Assets/TileMapGenerator.cs",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
+		"/Users/mdolt/Documents/ProjectX/Assets/Editor/Unit Tests/PlayerHealthTest.cs",
 		"/Users/mdolt/Documents/ProjectX/ProjectX.sublime-project",
 		"/Users/mdolt/Documents/Python playground/main.py",
 		"/Users/mdolt/Documents/SuperSpartyBros/Assets/Scripts/Wizard.cs",
@@ -385,7 +494,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -409,6 +518,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_size_x",
+			"size_x",
+			"move",
 			"tab",
 			"line",
 			"x",
@@ -502,31 +614,65 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Assets/Editor/Unit Tests/PlayerHealthTest.cs",
+					"file": "Assets/Scripts/Player/PlayerHealth.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2543,
+						"buffer_size": 2205,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252,
-								252
+								702,
+								681
 							]
 						],
 						"settings":
 						{
 							"oops":
 							{
-								"893,907": "Error: Single"
+								"358,370": "'playerHealth' should start with an upper case letter. (Rule 'Types')"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 719.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Editor/Unit Tests/PlayerHealthTest.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"1261,1273": "Cannot implicitly convert type `float' to `int'. An explicit conversion exists (are you missing a cast?)",
+								"840,852": "Cannot implicitly convert type `float' to `int'. An explicit conversion exists (are you missing a cast?)"
 							},
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
 							"translate_tabs_to_spaces": false
@@ -539,31 +685,35 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "Assets/Scripts/Player/PlayerHealth.cs",
+					"buffer": 2,
+					"file": "Assets/Scripts/TileMaps/TileMapGenerator.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2200,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								199,
-								199
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"oops":
 							{
-								"866,871": "'state' should start with an upper case letter. (Rule 'Properties')",
-								"955,968": "'currentHealth' should start with an upper case letter. (Rule 'Properties')"
+								"0,5": "Using directive is not used by code and can be removed safely.",
+								"1092,1098": "Convert to readonly",
+								"1708,1716": "Parameter 'collider' is never used",
+								"1731,1739": "Parameter 'renderer' is never used",
+								"26,31": "Using directive is not used by code and can be removed safely.",
+								"431,439": "Local variable 'collider' hides property 'UnityEngine.Component.collider'",
+								"493,501": "Local variable 'renderer' hides property 'UnityEngine.Component.renderer'"
 							},
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -571,13 +721,41 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/mdolt/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6832,
+								6832
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2696.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"input":
 	{
@@ -626,7 +804,7 @@
 	"project": "ProjectX.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
